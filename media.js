@@ -31,8 +31,7 @@ const UNITS = [
    "assets/renders/a-s1_2_kids1.jpg",
    "assets/renders/a-s1_3_kids2.jpg",
    "assets/renders/a-s1_4_bedroom.jpg",
-   "assets/renders/a-s1_5_bathroom.jpg",
-   "assets/renders/a-s1_dollhouse.png"
+   "assets/renders/a-s1_5_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/a-s1.jpg"
@@ -64,8 +63,7 @@ const UNITS = [
    "assets/renders/a-s2-spavaca.jpg",
    "assets/renders/a-s2_1_living.jpg",
    "assets/renders/a-s2_2_bedroom.jpg",
-   "assets/renders/a-s2_3_bathroom.jpg",
-   "assets/renders/a-s2_dollhouse.png"
+   "assets/renders/a-s2_3_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/a-s2.jpg"
@@ -98,9 +96,7 @@ const UNITS = [
    "assets/renders/a-s3-spavaca.jpg",
    "assets/renders/a-s3_1_living.jpg",
    "assets/renders/a-s3_2_bedroom.jpg",
-   "assets/renders/a-s3_3_bathroom.jpg",
-   "assets/renders/a-s3_dollhouse.png",
-   "assets/renders/a-s3_top.png"
+   "assets/renders/a-s3_3_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/a-s3.jpg"
@@ -130,9 +126,7 @@ const UNITS = [
    "assets/renders/a-s4-dnevni.jpg",
    "assets/renders/a-s4-kupaonica.jpg",
    "assets/renders/a-s4-lodja.jpg",
-   "assets/renders/a-s4-spavaca.jpg",
-   "assets/renders/a-s4_dollhouse.png",
-   "assets/renders/a-s2_dollhouse.png"
+   "assets/renders/a-s4-spavaca.jpg"
   ],
   "plans": [
    "assets/plans/a-s4.jpg",
@@ -163,10 +157,7 @@ const UNITS = [
    "assets/renders/a-s5-dnevni.jpg",
    "assets/renders/a-s5-kupaonica.jpg",
    "assets/renders/a-s5-lodja.jpg",
-   "assets/renders/a-s5-spavaca.jpg",
-   "assets/renders/a-s5_dollhouse.png",
-   "assets/renders/a-s3_dollhouse.png",
-   "assets/renders/a-s3_top.png"
+   "assets/renders/a-s5-spavaca.jpg"
   ],
   "plans": [
    "assets/plans/a-s5.jpg",
@@ -200,8 +191,7 @@ const UNITS = [
    "assets/renders/a-s6-spavaca.jpg",
    "assets/renders/a-s6_1_living.jpg",
    "assets/renders/a-s6_2_bedroom.jpg",
-   "assets/renders/a-s6_3_bathroom.jpg",
-   "assets/renders/a-s6_dollhouse.png"
+   "assets/renders/a-s6_3_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/a-s6.jpg"
@@ -231,8 +221,7 @@ const UNITS = [
    "assets/renders/a-s7-kupaonica.jpg",
    "assets/renders/a-s7_1_living.jpg",
    "assets/renders/a-s7_2_bedroom.jpg",
-   "assets/renders/a-s7_3_bathroom.jpg",
-   "assets/renders/a-s7_dollhouse.png"
+   "assets/renders/a-s7_3_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/a-s7.jpg"
@@ -268,11 +257,7 @@ const UNITS = [
    "assets/renders/a-duplex_1_living.jpg",
    "assets/renders/a-duplex_2_bedroom.jpg",
    "assets/renders/a-duplex_3_kids.jpg",
-   "assets/renders/a-duplex_4_bathroom.jpg",
-   "assets/renders/a-duplex-prizemlje_dollhouse.png",
-   "assets/renders/a-duplex-prizemlje_top.png",
-   "assets/renders/a-duplex-galerija_dollhouse.png",
-   "assets/renders/a-duplex-galerija_top.png"
+   "assets/renders/a-duplex_4_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/a-duplex-prizemlje.jpg",
@@ -323,11 +308,7 @@ const UNITS = [
   "renders": [
    "assets/renders/a-poslovni_thumb.png",
    "assets/renders/a-poslovni-sanitarije.jpg",
-   "assets/renders/a-poslovni-ured.jpg",
-   "assets/renders/a-poslovni_1_office.jpg",
-   "assets/renders/a-poslovni_2_gallery.jpg",
-   "assets/renders/a-poslovni_dollhouse.png",
-   "assets/renders/a-poslovni-galerija_dollhouse.png"
+   "assets/renders/a-poslovni-ured.jpg"
   ],
   "plans": [
    "assets/plans/a-poslovni.jpg",
@@ -358,8 +339,7 @@ const UNITS = [
    "assets/renders/b-s1-spavaca.jpg",
    "assets/renders/b-s1_1_living.jpg",
    "assets/renders/b-s1_2_bedroom.jpg",
-   "assets/renders/b-s1_3_bathroom.jpg",
-   "assets/renders/b-s1-desni_dollhouse.png"
+   "assets/renders/b-s1_3_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/b-s1-desni.jpg"
@@ -389,8 +369,7 @@ const UNITS = [
    "assets/renders/b-s2-spavaca.jpg",
    "assets/renders/b-s2_1_living.jpg",
    "assets/renders/b-s2_2_bedroom.jpg",
-   "assets/renders/b-s2_3_bathroom.jpg",
-   "assets/renders/b-s2-lijevi_dollhouse.png"
+   "assets/renders/b-s2_3_bathroom.jpg"
   ],
   "plans": [
    "assets/plans/b-s2-lijevi.jpg"
@@ -417,8 +396,7 @@ const UNITS = [
    "assets/renders/b-s3_thumb.png",
    "assets/renders/b-s3-dnevni.jpg",
    "assets/renders/b-s3-kupaonica.jpg",
-   "assets/renders/b-s3-spavaca.jpg",
-   "assets/renders/b-s3-lijevi_dollhouse.png"
+   "assets/renders/b-s3-spavaca.jpg"
   ],
   "plans": [
    "assets/plans/b-s3-lijevi.jpg"
@@ -445,8 +423,7 @@ const UNITS = [
    "assets/renders/b-s4_thumb.png",
    "assets/renders/b-s4-dnevni.jpg",
    "assets/renders/b-s4-kupaonica.jpg",
-   "assets/renders/b-s4-spavaca.jpg",
-   "assets/renders/b-s4-desni_dollhouse.png"
+   "assets/renders/b-s4-spavaca.jpg"
   ],
   "plans": [
    "assets/plans/b-s4-desni.jpg"
