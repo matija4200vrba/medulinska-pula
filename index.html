@@ -142,7 +142,7 @@ function show(u){
       p[1].toFixed(2).replace('.',',')+' m&sup2;</td></tr>';}).join('')+
     '<tr><td>Ukupno</td><td>'+u.parking.reduce(function(a,p){return a+p[1];},0)
       .toFixed(2).replace('.',',')+' m&sup2;</td></tr></table></div>';}
-  if(u.napomena){extra+='<div class="u-nap"><b>Napomena o kvadraturi</b><p>'+
+  if(u.napomena){extra+='<div class="u-nap"><b>Napomena</b><p>'+
     u.napomena+'</p></div>';}
   $('#mtab').insertAdjacentHTML('afterend',extra);
   $('#mn').textContent=u.spremno
