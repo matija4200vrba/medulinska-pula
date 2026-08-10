@@ -307,6 +307,7 @@ const UNITS = [
   },
   "renders": [
    "assets/renders/a-poslovni_thumb.png",
+   "assets/renders/a-poslovni-galerija.jpg",
    "assets/renders/a-poslovni-sanitarije.jpg",
    "assets/renders/a-poslovni-ured.jpg"
   ],
