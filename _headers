@@ -1,0 +1,11 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+/assets/*
+  X-Robots-Tag: noimageindex, noarchive
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Disposition: inline
+  Access-Control-Allow-Origin: https://medulinska.netlify.app

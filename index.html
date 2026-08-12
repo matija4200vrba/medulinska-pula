@@ -56,12 +56,20 @@ tr:last-child td{border-bottom:0;font-weight:600;color:var(--tx);padding-top:11p
 #mth .vth{display:inline-flex;align-items:center;justify-content:center;min-width:96px;height:56px;padding:0 10px;border:1px solid #2b3238;border-radius:6px;cursor:pointer;font-size:12.5px;color:#cfd6dc;background:#14181c;user-select:none}#mth .vth.on{border-color:#7fb2e5;color:#fff}
 .u-park,.u-nap{margin-top:14px;font-size:12.5px;color:#b9c1c8}.u-park b,.u-nap b{display:block;margin-bottom:6px;color:#e8edf2;font-size:13px}.u-park table{width:100%;border-collapse:collapse}.u-park td{padding:3px 0;border-bottom:1px solid #23282d}.u-park td:last-child{text-align:right}.u-nap p{margin:0;line-height:1.5;color:#9aa3ab}
 footer{color:#5c646b;font-size:12.5px;padding:0 min(5vw,28px) 50px;max-width:1180px;margin:0 auto}
+.u-ulaz{font-size:12px;color:#7fb2e5;margin:2px 0 6px;letter-spacing:.02em}
+
+/* --- zastita medija: bez povlacenja, bez oznacavanja, bez dugog pritiska --- */
+img,video{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;
+user-drag:none;-webkit-touch-callout:none;-webkit-user-select:none;-ms-user-select:none;
+user-select:none;pointer-events:auto}
+.hero{position:relative}
+.hero .nodl{position:absolute;inset:0;z-index:5;background:transparent}
 </style>
 </head>
 <body>
 
 <div class="hero">
-  <video id="hv" autoplay muted loop playsinline></video>
+  <video id="hv" autoplay muted loop playsinline controlslist="nodownload noremoteplayback noplaybackrate" disablepictureinpicture oncontextmenu="return false"></video><div class="nodl"></div>
   <div class="ov">
     <h1>Medulinska, Pula</h1>
     <p>Stambeno-poslovna gra&#273;evina &mdash; zgrada A i zgrada B.
@@ -107,7 +115,7 @@ else if(HERO_POSTER){$('#hv').outerHTML='<img src="'+HERO_POSTER+'" alt="">';}
 function card(u){
   const th=u.renders[0]?'<img src="'+u.renders[0]+'" alt="">':'<span class="no">render u izradi</span>';
   return '<div class="card" data-k="'+u.key+'"><div class="th">'+th+'</div><div class="bd">'+
-    '<h3>'+u.naziv+'</h3><div class="meta">'+u.tip+'</div>'+
+    '<h3>'+u.naziv+'</h3><div class="meta">'+u.tip+'</div>'+(u.ulaz?'<div class="u-ulaz">Ulaz '+u.ulaz+(u.etaza?' \u00b7 '+u.etaza:'')+'</div>':'')+
     '<div class="m2">'+u.m2.toFixed(2).replace('.',',')+' m&sup2;</div>'+
     '<span class="tag'+(u.spremno?' ok':'')+'">'+
       (u.spremno?'geometrija provjerena':'u izradi')+'</span>'+
@@ -125,11 +133,11 @@ $('#cb').textContent='· '+B.length+' stanova';
 const nready=UNITS.filter(u=>u.spremno).length;
 $('#ft').textContent='Geometrija provjerena za '+nready+' od '+UNITS.length+
  ' jedinica: površina svake prostorije uspoređena je s kvadraturom ispisanom na tlocrtu. '+
- 'Visina prostora 2,70 m i etаžna visina 3,00 m su radne vrijednosti — dokumentacija nema presjek.';
+ 'Eta\u017ena visina 2,95 m o\u010ditana je iz kota +2,86 / +2,90 / +5,85 na situaciji. Uli\u010dna zgrada je P+3 (2. i 3. kat su identi\u010dni), dvori\u0161na P+1. \u010cetiri ulaza (A1, A2, B1, B2) o\u010ditana su iz razdjelnica na tlocrtima.';
 
 function show(u){
   $('#mt').textContent=u.naziv;
-  $('#mm').textContent=u.tip+(u.px_per_m?' · mjerilo '+u.px_per_m.toFixed(1)+' px/m':'');
+  $('#mm').textContent=u.tip+(u.ulaz?' \u00b7 ulaz '+u.ulaz:'')+(u.etaza?' \u00b7 '+u.etaza:'')+(u.px_per_m?' \u00b7 mjerilo '+u.px_per_m.toFixed(1)+' px/m':'');
   $('#ms').textContent=u.m2.toFixed(2).replace('.',',')+' m²';
   const e=Object.entries(u.rooms);
   $('#mtab').innerHTML=e.length
@@ -142,6 +150,7 @@ function show(u){
       p[1].toFixed(2).replace('.',',')+' m&sup2;</td></tr>';}).join('')+
     '<tr><td>Ukupno</td><td>'+u.parking.reduce(function(a,p){return a+p[1];},0)
       .toFixed(2).replace('.',',')+' m&sup2;</td></tr></table></div>';}
+  if(u.ponavlja_se){extra+='<div class="u-nap"><b>Etaza</b><p>'+'Na tlocrtu je list ozna\u010den kao 2./3. KAT \u2014 ova se jedinica ponavlja identi\u010dna na drugom i tre\u0107em katu.'+'</p></div>';}
   if(u.napomena){extra+='<div class="u-nap"><b>Napomena</b><p>'+
     u.napomena+'</p></div>';}
   $('#mtab').insertAdjacentHTML('afterend',extra);
@@ -162,6 +171,54 @@ function show(u){
   dlg.showModal();
 }
 document.querySelectorAll('.card').forEach(c=>c.onclick=()=>show(UNITS.find(u=>u.key===c.dataset.k)));
+</script>
+
+<script>
+/* ---------- ZASTITA MEDIJA (odvraca preuzimanje) ---------- */
+(function(){
+  var stop=function(e){e.preventDefault();e.stopPropagation();return false;};
+
+  // desni klik i povlacenje nigdje na stranici
+  document.addEventListener('contextmenu',stop,{capture:true});
+  document.addEventListener('dragstart',stop,{capture:true});
+  document.addEventListener('selectstart',function(e){
+    var t=e.target.tagName;
+    if(t==='IMG'||t==='VIDEO'){return stop(e);}
+  },{capture:true});
+
+  // dugi pritisak na mobitelu
+  var tmr=null;
+  document.addEventListener('touchstart',function(e){
+    var t=e.target.tagName;
+    if(t==='IMG'||t==='VIDEO'){tmr=setTimeout(function(){},0);}
+  },{passive:true});
+  document.addEventListener('touchend',function(){if(tmr){clearTimeout(tmr);tmr=null;}},{passive:true});
+
+  // svakom videu skini gumb za preuzimanje, svakoj slici zabrani povlacenje
+  var zakljucaj=function(root){
+    (root||document).querySelectorAll('video').forEach(function(v){
+      v.setAttribute('controlsList','nodownload noremoteplayback noplaybackrate');
+      v.setAttribute('disablePictureInPicture','');
+      v.oncontextmenu=stop;
+      v.setAttribute('draggable','false');
+    });
+    (root||document).querySelectorAll('img').forEach(function(i){
+      i.setAttribute('draggable','false');
+      i.oncontextmenu=stop;
+    });
+  };
+  zakljucaj();
+  new MutationObserver(function(m){zakljucaj();}).observe(document.documentElement,
+    {childList:true,subtree:true});
+
+  // precice: spremi stranicu, izvorni kod, alati za razvoj
+  document.addEventListener('keydown',function(e){
+    var k=(e.key||'').toLowerCase();
+    if(e.key==='F12') return stop(e);
+    if((e.ctrlKey||e.metaKey)&&(k==='s'||k==='u'||k==='p')) return stop(e);
+    if((e.ctrlKey||e.metaKey)&&e.shiftKey&&(k==='i'||k==='j'||k==='c')) return stop(e);
+  },{capture:true});
+})();
 </script>
 </body>
 </html>

@@ -20,18 +20,15 @@ const UNITS = [
    "Lođa": 4.9
   },
   "renders": [
-   "assets/renders/a-s1_thumb.png",
-   "assets/renders/a-s1-djecja1.jpg",
-   "assets/renders/a-s1-djecja2.jpg",
-   "assets/renders/a-s1-dnevni.jpg",
-   "assets/renders/a-s1-kupaonica.jpg",
-   "assets/renders/a-s1-lodja.jpg",
-   "assets/renders/a-s1-spavaca.jpg",
-   "assets/renders/a-s1_1_living.jpg",
-   "assets/renders/a-s1_2_kids1.jpg",
-   "assets/renders/a-s1_3_kids2.jpg",
-   "assets/renders/a-s1_4_bedroom.jpg",
-   "assets/renders/a-s1_5_bathroom.jpg"
+   "assets/renders/a-s1_thumb.jpg",
+   "assets/renders/a-s1_living.jpg",
+   "assets/renders/a-s1_spavaca.jpg",
+   "assets/renders/a-s1_djecja.jpg",
+   "assets/renders/a-s1_djecja_2.jpg",
+   "assets/renders/a-s1_kupaonica.jpg",
+   "assets/renders/a-s1_wc.jpg",
+   "assets/renders/a-s1_hodnik.jpg",
+   "assets/renders/a-s1_lodja.jpg"
   ],
   "plans": [
    "assets/plans/a-s1.jpg"
@@ -39,7 +36,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 198.617,
   "izvor": "a-s1",
-  "tour": "assets/video/tour-a-s1.mp4"
+  "tour": "assets/video/tour-a-s1.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "1. kat",
+  "ponavlja_se": false
  },
  {
   "key": "a-s2",
@@ -57,12 +59,12 @@ const UNITS = [
    "Lođa": 10.06
   },
   "renders": [
-   "assets/renders/a-s2_thumb.png",
-   "assets/renders/a-s2-kupaonica.jpg",
-   "assets/renders/a-s2-lodja.jpg",
-   "assets/renders/a-s2_1_living.jpg",
-   "assets/renders/a-s2_2_bedroom.jpg",
-   "assets/renders/a-s2_3_bathroom.jpg"
+   "assets/renders/a-s2_thumb.jpg",
+   "assets/renders/a-s2_living.jpg",
+   "assets/renders/a-s2_spavaca.jpg",
+   "assets/renders/a-s2_kupaonica.jpg",
+   "assets/renders/a-s2_ulaz.jpg",
+   "assets/renders/a-s2_lodja.jpg"
   ],
   "plans": [
    "assets/plans/a-s2.jpg"
@@ -70,7 +72,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 114.545,
   "izvor": "a-s2",
-  "tour": "assets/video/tour-a-s2.mp4"
+  "tour": "assets/video/tour-a-s2.mp4",
+  "ulaz": "A1",
+  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "1. kat",
+  "ponavlja_se": false
  },
  {
   "key": "a-s3",
@@ -88,13 +95,12 @@ const UNITS = [
    "Lođa": 9.99
   },
   "renders": [
-   "assets/renders/a-s3_thumb.png",
-   "assets/renders/a-s3-kupaonica.jpg",
-   "assets/renders/a-s3-lodja.jpg",
-   "assets/renders/a-s3-spavaca.jpg",
-   "assets/renders/a-s3_1_living.jpg",
-   "assets/renders/a-s3_2_bedroom.jpg",
-   "assets/renders/a-s3_3_bathroom.jpg"
+   "assets/renders/a-s3_thumb.jpg",
+   "assets/renders/a-s3_living.jpg",
+   "assets/renders/a-s3_spavaca.jpg",
+   "assets/renders/a-s3_kupaonica.jpg",
+   "assets/renders/a-s3_ulaz.jpg",
+   "assets/renders/a-s3_lodja.jpg"
   ],
   "plans": [
    "assets/plans/a-s3.jpg"
@@ -102,7 +108,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 198.3901,
   "izvor": "a-s3",
-  "tour": "assets/video/tour-a-s3.mp4"
+  "tour": "assets/video/tour-a-s3.mp4",
+  "ulaz": "A1",
+  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "1. kat",
+  "ponavlja_se": false
  },
  {
   "key": "a-s4",
@@ -120,11 +131,12 @@ const UNITS = [
    "Lođa": 10.06
   },
   "renders": [
-   "assets/renders/a-s4_thumb.png",
-   "assets/renders/a-s4-dnevni.jpg",
-   "assets/renders/a-s4-kupaonica.jpg",
-   "assets/renders/a-s4-lodja.jpg",
-   "assets/renders/a-s4-spavaca.jpg"
+   "assets/renders/a-s4_thumb.jpg",
+   "assets/renders/a-s4_living.jpg",
+   "assets/renders/a-s4_spavaca.jpg",
+   "assets/renders/a-s4_kupaonica.jpg",
+   "assets/renders/a-s4_ulaz.jpg",
+   "assets/renders/a-s4_lodja.jpg"
   ],
   "plans": [
    "assets/plans/a-s4.jpg",
@@ -133,7 +145,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 114.545,
   "izvor": "a-s4",
-  "tour": "assets/video/tour-a-s4.mp4"
+  "tour": "assets/video/tour-a-s4.mp4",
+  "ulaz": "A1",
+  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "2. i 3. kat",
+  "ponavlja_se": true
  },
  {
   "key": "a-s5",
@@ -151,11 +168,12 @@ const UNITS = [
    "Lođa": 9.99
   },
   "renders": [
-   "assets/renders/a-s5_thumb.png",
-   "assets/renders/a-s5-dnevni.jpg",
-   "assets/renders/a-s5-kupaonica.jpg",
-   "assets/renders/a-s5-lodja.jpg",
-   "assets/renders/a-s5-spavaca.jpg"
+   "assets/renders/a-s5_thumb.jpg",
+   "assets/renders/a-s5_living.jpg",
+   "assets/renders/a-s5_spavaca.jpg",
+   "assets/renders/a-s5_kupaonica.jpg",
+   "assets/renders/a-s5_ulaz.jpg",
+   "assets/renders/a-s5_lodja.jpg"
   ],
   "plans": [
    "assets/plans/a-s5.jpg",
@@ -164,7 +182,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 198.3901,
   "izvor": "a-s5",
-  "tour": "assets/video/tour-a-s5.mp4"
+  "tour": "assets/video/tour-a-s5.mp4",
+  "ulaz": "A1",
+  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "2. i 3. kat",
+  "ponavlja_se": true
  },
  {
   "key": "a-s6",
@@ -182,14 +205,12 @@ const UNITS = [
    "Lođa": 4.9
   },
   "renders": [
-   "assets/renders/a-s6_thumb.png",
-   "assets/renders/a-s6-dnevni.jpg",
-   "assets/renders/a-s6-kupaonica.jpg",
-   "assets/renders/a-s6-lodja.jpg",
-   "assets/renders/a-s6-spavaca.jpg",
-   "assets/renders/a-s6_1_living.jpg",
-   "assets/renders/a-s6_2_bedroom.jpg",
-   "assets/renders/a-s6_3_bathroom.jpg"
+   "assets/renders/a-s6_thumb.jpg",
+   "assets/renders/a-s6_living.jpg",
+   "assets/renders/a-s6_spavaca.jpg",
+   "assets/renders/a-s6_kupaonica.jpg",
+   "assets/renders/a-s6_ulaz.jpg",
+   "assets/renders/a-s6_lodja.jpg"
   ],
   "plans": [
    "assets/plans/a-s6.jpg"
@@ -197,7 +218,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 194.9195,
   "izvor": "a-s6",
-  "tour": "assets/video/tour-a-s6.mp4"
+  "tour": "assets/video/tour-a-s6.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "2. i 3. kat",
+  "ponavlja_se": true
  },
  {
   "key": "a-s7",
@@ -214,12 +240,11 @@ const UNITS = [
    "Dnevni boravak s kuhinjom i blagovaonicom": 15.85
   },
   "renders": [
-   "assets/renders/a-s7_thumb.png",
-   "assets/renders/a-s7-dnevni.jpg",
-   "assets/renders/a-s7-kupaonica.jpg",
-   "assets/renders/a-s7_1_living.jpg",
-   "assets/renders/a-s7_2_bedroom.jpg",
-   "assets/renders/a-s7_3_bathroom.jpg"
+   "assets/renders/a-s7_thumb.jpg",
+   "assets/renders/a-s7_living.jpg",
+   "assets/renders/a-s7_spavaca.jpg",
+   "assets/renders/a-s7_kupaonica.jpg",
+   "assets/renders/a-s7_ulaz.jpg"
   ],
   "plans": [
    "assets/plans/a-s7.jpg"
@@ -227,7 +252,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 196.0326,
   "izvor": "a-s7",
-  "tour": "assets/video/tour-a-s7.mp4"
+  "tour": "assets/video/tour-a-s7.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "2. i 3. kat",
+  "ponavlja_se": true
  },
  {
   "key": "a-duplex",
@@ -247,15 +277,13 @@ const UNITS = [
    "Spavaća soba": 10.79
   },
   "renders": [
-   "assets/renders/a-duplex_thumb.png",
-   "assets/renders/a-duplex-dnevni.jpg",
-   "assets/renders/a-duplex-kupaonica.jpg",
-   "assets/renders/a-duplex-spavaca.jpg",
-   "assets/renders/a-duplex-spavaca2.jpg",
-   "assets/renders/a-duplex_1_living.jpg",
-   "assets/renders/a-duplex_2_bedroom.jpg",
-   "assets/renders/a-duplex_3_kids.jpg",
-   "assets/renders/a-duplex_4_bathroom.jpg"
+   "assets/renders/a-duplex_thumb.jpg",
+   "assets/renders/a-duplex_living.jpg",
+   "assets/renders/a-duplex_spavaca_gal.jpg",
+   "assets/renders/a-duplex_djecja_gal.jpg",
+   "assets/renders/a-duplex_kupaonica.jpg",
+   "assets/renders/a-duplex_ulaz.jpg",
+   "assets/renders/a-duplex_spremiste.jpg"
   ],
   "plans": [
    "assets/plans/a-duplex-prizemlje.jpg",
@@ -264,7 +292,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.8551,
   "izvor": "a-duplex-prizemlje",
-  "tour": "assets/video/tour-a-duplex.mp4"
+  "tour": "assets/video/tour-a-duplex.mp4",
+  "ulaz": "A1",
+  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "prizemlje + galerija",
+  "ponavlja_se": false
  },
  {
   "key": "a-poslovni",
@@ -304,9 +337,13 @@ const UNITS = [
    "Galerija ureda": 28.06
   },
   "renders": [
-   "assets/renders/a-poslovni_thumb.png",
-   "assets/renders/a-poslovni-sanitarije.jpg",
-   "assets/renders/a-poslovni-ured.jpg"
+   "assets/renders/a-poslovni_thumb.jpg",
+   "assets/renders/a-poslovni_ured.jpg",
+   "assets/renders/a-poslovni_galerija.jpg",
+   "assets/renders/a-poslovni_wc1.jpg",
+   "assets/renders/a-poslovni_wc2.jpg",
+   "assets/renders/a-poslovni_wc3.jpg",
+   "assets/renders/a-poslovni_spremiste.jpg"
   ],
   "plans": [
    "assets/plans/a-poslovni.jpg",
@@ -315,7 +352,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.5328,
   "izvor": "a-poslovni",
-  "tour": "assets/video/tour-a-poslovni.mp4"
+  "tour": "assets/video/tour-a-poslovni.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "prizemlje + galerija",
+  "ponavlja_se": false
  },
  {
   "key": "b-s2",
@@ -331,13 +373,10 @@ const UNITS = [
    "Kupaonica": 7.5
   },
   "renders": [
-   "assets/renders/b-s2_thumb.png",
-   "assets/renders/b-s2-dnevni.jpg",
-   "assets/renders/b-s2-kupaonica.jpg",
-   "assets/renders/b-s2-spavaca.jpg",
-   "assets/renders/b-s2_1_living.jpg",
-   "assets/renders/b-s2_2_bedroom.jpg",
-   "assets/renders/b-s2_3_bathroom.jpg"
+   "assets/renders/b-s2_thumb.jpg",
+   "assets/renders/b-s2_living.jpg",
+   "assets/renders/b-s2_spavaca.jpg",
+   "assets/renders/b-s2_kupaonica.jpg"
   ],
   "plans": [
    "assets/plans/b-s2-lijevi.jpg"
@@ -345,7 +384,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 116.8968,
   "izvor": "b-s2-lijevi",
-  "tour": "assets/video/tour-b-s2.mp4"
+  "tour": "assets/video/tour-b-s2.mp4",
+  "ulaz": "B2",
+  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
+  "dilatacija": "DVORISNA",
+  "etaza": "prizemlje",
+  "ponavlja_se": false
  },
  {
   "key": "b-s1",
@@ -361,13 +405,10 @@ const UNITS = [
    "Kupaonica": 6.96
   },
   "renders": [
-   "assets/renders/b-s1_thumb.png",
-   "assets/renders/b-s1-dnevni.jpg",
-   "assets/renders/b-s1-kupaonica.jpg",
-   "assets/renders/b-s1-spavaca.jpg",
-   "assets/renders/b-s1_1_living.jpg",
-   "assets/renders/b-s1_2_bedroom.jpg",
-   "assets/renders/b-s1_3_bathroom.jpg"
+   "assets/renders/b-s1_thumb.jpg",
+   "assets/renders/b-s1_living.jpg",
+   "assets/renders/b-s1_spavaca.jpg",
+   "assets/renders/b-s1_kupaonica.jpg"
   ],
   "plans": [
    "assets/plans/b-s1-desni.jpg"
@@ -375,7 +416,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.1589,
   "izvor": "b-s1-desni",
-  "tour": "assets/video/tour-b-s1.mp4"
+  "tour": "assets/video/tour-b-s1.mp4",
+  "ulaz": "B1",
+  "ulaz_opis": "Ulaz B1 — dvorišna zgrada, zapadni dio (P+1)",
+  "dilatacija": "DVORISNA",
+  "etaza": "prizemlje",
+  "ponavlja_se": false
  },
  {
   "key": "b-s3",
@@ -391,10 +437,10 @@ const UNITS = [
    "Kupaonica": 7.5
   },
   "renders": [
-   "assets/renders/b-s3_thumb.png",
-   "assets/renders/b-s3-dnevni.jpg",
-   "assets/renders/b-s3-kupaonica.jpg",
-   "assets/renders/b-s3-spavaca.jpg"
+   "assets/renders/b-s3_thumb.jpg",
+   "assets/renders/b-s3_living.jpg",
+   "assets/renders/b-s3_spavaca.jpg",
+   "assets/renders/b-s3_kupaonica.jpg"
   ],
   "plans": [
    "assets/plans/b-s3-lijevi.jpg"
@@ -402,7 +448,12 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 116.8968,
   "izvor": "b-s3-lijevi",
-  "tour": "assets/video/tour-b-s3.mp4"
+  "tour": "assets/video/tour-b-s3.mp4",
+  "ulaz": "B2",
+  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
+  "dilatacija": "DVORISNA",
+  "etaza": "kat",
+  "ponavlja_se": false
  },
  {
   "key": "b-s4",
@@ -418,10 +469,10 @@ const UNITS = [
    "Kupaonica": 6.96
   },
   "renders": [
-   "assets/renders/b-s4_thumb.png",
-   "assets/renders/b-s4-dnevni.jpg",
-   "assets/renders/b-s4-kupaonica.jpg",
-   "assets/renders/b-s4-spavaca.jpg"
+   "assets/renders/b-s4_thumb.jpg",
+   "assets/renders/b-s4_living.jpg",
+   "assets/renders/b-s4_spavaca.jpg",
+   "assets/renders/b-s4_kupaonica.jpg"
   ],
   "plans": [
    "assets/plans/b-s4-desni.jpg"
@@ -429,6 +480,11 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.1589,
   "izvor": "b-s4-desni",
-  "tour": "assets/video/tour-b-s4.mp4"
+  "tour": "assets/video/tour-b-s4.mp4",
+  "ulaz": "B1",
+  "ulaz_opis": "Ulaz B1 — dvorišna zgrada, zapadni dio (P+1)",
+  "dilatacija": "DVORISNA",
+  "etaza": "kat",
+  "ponavlja_se": false
  }
 ];
