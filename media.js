@@ -360,70 +360,6 @@ const UNITS = [
   "ponavlja_se": true
  },
  {
-  "key": "b-s1",
-  "naziv": "Stan B1",
-  "m2": 42.72,
-  "zgrada": "B",
-  "tip": "1-sobni, pristupačan",
-  "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 2.",
-  "rooms": {
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.61,
-   "Spavaća soba": 10.15,
-   "Kupaonica": 6.96
-  },
-  "renders": [
-   "assets/renders/b-s1_thumb.jpg",
-   "assets/renders/b-s1_living.jpg",
-   "assets/renders/b-s1_spavaca.jpg",
-   "assets/renders/b-s1_kupaonica.jpg"
-  ],
-  "plans": [
-   "assets/plans/b-s1-desni.jpg"
-  ],
-  "spremno": true,
-  "px_per_m": 117.1589,
-  "izvor": "b-s1-desni",
-  "tour": "assets/video/tour-b-s1.mp4",
-  "ulaz": "B1",
-  "ulaz_opis": "Ulaz B1 — dvorišna zgrada, zapadni dio (P+1)",
-  "dilatacija": "DVORISNA",
-  "etaza": "prizemlje",
-  "ponavlja_se": false
- },
- {
-  "key": "b-s4",
-  "naziv": "Stan B3",
-  "m2": 42.72,
-  "zgrada": "B",
-  "tip": "1-sobni, pristupačan",
-  "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 4.",
-  "rooms": {
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.61,
-   "Spavaća soba": 10.15,
-   "Kupaonica": 6.96
-  },
-  "renders": [
-   "assets/renders/b-s4_thumb.jpg",
-   "assets/renders/b-s4_living.jpg",
-   "assets/renders/b-s4_spavaca.jpg",
-   "assets/renders/b-s4_kupaonica.jpg"
-  ],
-  "plans": [
-   "assets/plans/b-s4-desni.jpg"
-  ],
-  "spremno": true,
-  "px_per_m": 117.1589,
-  "izvor": "b-s4-desni",
-  "tour": "assets/video/tour-b-s4.mp4",
-  "ulaz": "B1",
-  "ulaz_opis": "Ulaz B1 — dvorišna zgrada, zapadni dio (P+1)",
-  "dilatacija": "DVORISNA",
-  "etaza": "kat",
-  "ponavlja_se": false
- },
- {
   "key": "b-s2",
   "naziv": "Stan B2",
   "m2": 42.56,
@@ -449,8 +385,40 @@ const UNITS = [
   "px_per_m": 116.8968,
   "izvor": "b-s2-lijevi",
   "tour": "assets/video/tour-b-s2.mp4",
-  "ulaz": "B2",
-  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
+  "ulaz": "B",
+  "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
+  "dilatacija": "DVORISNA",
+  "etaza": "prizemlje",
+  "ponavlja_se": false
+ },
+ {
+  "key": "b-s1",
+  "naziv": "Stan B1",
+  "m2": 42.72,
+  "zgrada": "B",
+  "tip": "1-sobni, pristupačan",
+  "parking": null,
+  "napomena": "Na tlocrtu označena kao STAN 2.",
+  "rooms": {
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.61,
+   "Spavaća soba": 10.15,
+   "Kupaonica": 6.96
+  },
+  "renders": [
+   "assets/renders/b-s1_thumb.jpg",
+   "assets/renders/b-s1_living.jpg",
+   "assets/renders/b-s1_spavaca.jpg",
+   "assets/renders/b-s1_kupaonica.jpg"
+  ],
+  "plans": [
+   "assets/plans/b-s1-desni.jpg"
+  ],
+  "spremno": true,
+  "px_per_m": 117.1589,
+  "izvor": "b-s1-desni",
+  "tour": "assets/video/tour-b-s1.mp4",
+  "ulaz": "B",
+  "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
   "etaza": "prizemlje",
   "ponavlja_se": false
@@ -481,8 +449,40 @@ const UNITS = [
   "px_per_m": 116.8968,
   "izvor": "b-s3-lijevi",
   "tour": "assets/video/tour-b-s3.mp4",
-  "ulaz": "B2",
-  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
+  "ulaz": "B",
+  "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
+  "dilatacija": "DVORISNA",
+  "etaza": "kat",
+  "ponavlja_se": false
+ },
+ {
+  "key": "b-s4",
+  "naziv": "Stan B3",
+  "m2": 42.72,
+  "zgrada": "B",
+  "tip": "1-sobni, pristupačan",
+  "parking": null,
+  "napomena": "Na tlocrtu označena kao STAN 4.",
+  "rooms": {
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.61,
+   "Spavaća soba": 10.15,
+   "Kupaonica": 6.96
+  },
+  "renders": [
+   "assets/renders/b-s4_thumb.jpg",
+   "assets/renders/b-s4_living.jpg",
+   "assets/renders/b-s4_spavaca.jpg",
+   "assets/renders/b-s4_kupaonica.jpg"
+  ],
+  "plans": [
+   "assets/plans/b-s4-desni.jpg"
+  ],
+  "spremno": true,
+  "px_per_m": 117.1589,
+  "izvor": "b-s4-desni",
+  "tour": "assets/video/tour-b-s4.mp4",
+  "ulaz": "B",
+  "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
   "etaza": "kat",
   "ponavlja_se": false

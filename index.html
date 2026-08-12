@@ -82,10 +82,8 @@ user-select:none;pointer-events:auto}
   <div class="grid" id="gA1"></div>
   <h2>Ulaz A2 <span id="cA2"></span></h2>
   <div class="grid" id="gA2"></div>
-  <h2>Ulaz B1 <span id="cB1"></span></h2>
-  <div class="grid" id="gB1"></div>
-  <h2>Ulaz B2 <span id="cB2"></span></h2>
-  <div class="grid" id="gB2"></div>
+  <h2>Ulaz B <span id="cB"></span></h2>
+  <div class="grid" id="gB"></div>
   <h2>Poslovni prostor <span id="cp"></span></h2>
   <div class="grid" id="gp"></div>
 </div>
@@ -127,7 +125,7 @@ function card(u){
 }
 const P=UNITS.filter(u=>u.key==='a-poslovni');
 const RED={'prizemlje':0,'prizemlje + galerija':0,'1. kat':1,'kat':1,'2. i 3. kat':2};
-const ULAZI=['A1','A2','B1','B2'];
+const ULAZI=['A1','A2','B'];
 ULAZI.forEach(function(z){
   const L=UNITS.filter(u=>u.ulaz===z&&u.key!=='a-poslovni')
     .sort((a,b)=>(RED[a.etaza]??9)-(RED[b.etaza]??9)||a.m2-b.m2);
