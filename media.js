@@ -2,45 +2,43 @@ const HERO = "assets/video/hero-orbit.mp4";
 const HERO_POSTER = "assets/renders/hero_poster.png";
 const UNITS = [
  {
-  "key": "a-s1",
-  "naziv": "Stan 1",
-  "m2": 84.24,
+  "key": "a-duplex",
+  "naziv": "Duplex",
+  "m2": 66.9,
   "zgrada": "A",
-  "tip": "3-sobni",
+  "tip": "duplex 2-sobni",
   "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 1.",
+  "napomena": "Na tlocrtu označena kao STAN 1 (druga lamela), duplex: prizemlje + galerija.",
   "rooms": {
-   "Hodnik": 9.44,
-   "Kupaonica": 5.4,
-   "WC": 1.66,
-   "Spavaća soba": 12.06,
-   "Dječja soba": 12.05,
-   "Dječja soba 2": 9.92,
-   "Dnevni boravak s kuhinjom i blagovaonicom": 28.81,
-   "Lođa": 4.9
+   "Ulaz": 5.52,
+   "Kupaonica": 3.97,
+   "Dnevni boravak s kuhinjom i blagovaonicom": 32.95,
+   "Spremište": 3.71,
+   "Podest": 0.92,
+   "Dječja soba": 9.04,
+   "Spavaća soba": 10.79
   },
   "renders": [
-   "assets/renders/a-s1_thumb.jpg",
-   "assets/renders/a-s1_living.jpg",
-   "assets/renders/a-s1_spavaca.jpg",
-   "assets/renders/a-s1_djecja.jpg",
-   "assets/renders/a-s1_djecja_2.jpg",
-   "assets/renders/a-s1_kupaonica.jpg",
-   "assets/renders/a-s1_wc.jpg",
-   "assets/renders/a-s1_hodnik.jpg",
-   "assets/renders/a-s1_lodja.jpg"
+   "assets/renders/a-duplex_thumb.jpg",
+   "assets/renders/a-duplex_living.jpg",
+   "assets/renders/a-duplex_spavaca_gal.jpg",
+   "assets/renders/a-duplex_djecja_gal.jpg",
+   "assets/renders/a-duplex_kupaonica.jpg",
+   "assets/renders/a-duplex_ulaz.jpg",
+   "assets/renders/a-duplex_spremiste.jpg"
   ],
   "plans": [
-   "assets/plans/a-s1.jpg"
+   "assets/plans/a-duplex-prizemlje.jpg",
+   "assets/plans/a-duplex-galerija.jpg"
   ],
   "spremno": true,
-  "px_per_m": 198.617,
-  "izvor": "a-s1",
-  "tour": "assets/video/tour-a-s1.mp4",
-  "ulaz": "A2",
-  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "px_per_m": 117.8551,
+  "izvor": "a-duplex-prizemlje",
+  "tour": "assets/video/tour-a-duplex.mp4",
+  "ulaz": "A1",
+  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
-  "etaza": "1. kat",
+  "etaza": "prizemlje + galerija",
   "ponavlja_se": false
  },
  {
@@ -190,116 +188,6 @@ const UNITS = [
   "ponavlja_se": true
  },
  {
-  "key": "a-s6",
-  "naziv": "Stan 6",
-  "m2": 50.78,
-  "zgrada": "A",
-  "tip": "1-sobni",
-  "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 6.",
-  "rooms": {
-   "Ulaz": 4.46,
-   "Kupaonica": 5.95,
-   "Spavaća soba": 10.05,
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.42,
-   "Lođa": 4.9
-  },
-  "renders": [
-   "assets/renders/a-s6_thumb.jpg",
-   "assets/renders/a-s6_living.jpg",
-   "assets/renders/a-s6_spavaca.jpg",
-   "assets/renders/a-s6_kupaonica.jpg",
-   "assets/renders/a-s6_ulaz.jpg",
-   "assets/renders/a-s6_lodja.jpg"
-  ],
-  "plans": [
-   "assets/plans/a-s6.jpg"
-  ],
-  "spremno": true,
-  "px_per_m": 194.9195,
-  "izvor": "a-s6",
-  "tour": "assets/video/tour-a-s6.mp4",
-  "ulaz": "A2",
-  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
-  "dilatacija": "ULICNA",
-  "etaza": "2. i 3. kat",
-  "ponavlja_se": true
- },
- {
-  "key": "a-s7",
-  "naziv": "Stan 7",
-  "m2": 30.58,
-  "zgrada": "A",
-  "tip": "1-sobni",
-  "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 7.",
-  "rooms": {
-   "Ulaz": 2.62,
-   "Kupaonica": 3.8,
-   "Spavaća soba": 8.31,
-   "Dnevni boravak s kuhinjom i blagovaonicom": 15.85
-  },
-  "renders": [
-   "assets/renders/a-s7_thumb.jpg",
-   "assets/renders/a-s7_living.jpg",
-   "assets/renders/a-s7_spavaca.jpg",
-   "assets/renders/a-s7_kupaonica.jpg",
-   "assets/renders/a-s7_ulaz.jpg"
-  ],
-  "plans": [
-   "assets/plans/a-s7.jpg"
-  ],
-  "spremno": true,
-  "px_per_m": 196.0326,
-  "izvor": "a-s7",
-  "tour": "assets/video/tour-a-s7.mp4",
-  "ulaz": "A2",
-  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
-  "dilatacija": "ULICNA",
-  "etaza": "2. i 3. kat",
-  "ponavlja_se": true
- },
- {
-  "key": "a-duplex",
-  "naziv": "Duplex",
-  "m2": 66.9,
-  "zgrada": "A",
-  "tip": "duplex 2-sobni",
-  "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 1 (druga lamela), duplex: prizemlje + galerija.",
-  "rooms": {
-   "Ulaz": 5.52,
-   "Kupaonica": 3.97,
-   "Dnevni boravak s kuhinjom i blagovaonicom": 32.95,
-   "Spremište": 3.71,
-   "Podest": 0.92,
-   "Dječja soba": 9.04,
-   "Spavaća soba": 10.79
-  },
-  "renders": [
-   "assets/renders/a-duplex_thumb.jpg",
-   "assets/renders/a-duplex_living.jpg",
-   "assets/renders/a-duplex_spavaca_gal.jpg",
-   "assets/renders/a-duplex_djecja_gal.jpg",
-   "assets/renders/a-duplex_kupaonica.jpg",
-   "assets/renders/a-duplex_ulaz.jpg",
-   "assets/renders/a-duplex_spremiste.jpg"
-  ],
-  "plans": [
-   "assets/plans/a-duplex-prizemlje.jpg",
-   "assets/plans/a-duplex-galerija.jpg"
-  ],
-  "spremno": true,
-  "px_per_m": 117.8551,
-  "izvor": "a-duplex-prizemlje",
-  "tour": "assets/video/tour-a-duplex.mp4",
-  "ulaz": "A1",
-  "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
-  "dilatacija": "ULICNA",
-  "etaza": "prizemlje + galerija",
-  "ponavlja_se": false
- },
- {
   "key": "a-poslovni",
   "naziv": "Poslovni prostor",
   "m2": 88.83,
@@ -360,40 +248,120 @@ const UNITS = [
   "ponavlja_se": false
  },
  {
-  "key": "b-s2",
-  "naziv": "Stan B1",
-  "m2": 42.56,
-  "zgrada": "B",
-  "tip": "1-sobni, pristupačan",
+  "key": "a-s1",
+  "naziv": "Stan 1",
+  "m2": 84.24,
+  "zgrada": "A",
+  "tip": "3-sobni",
   "parking": null,
   "napomena": "Na tlocrtu označena kao STAN 1.",
   "rooms": {
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.55,
-   "Spavaća soba": 9.51,
-   "Kupaonica": 7.5
+   "Hodnik": 9.44,
+   "Kupaonica": 5.4,
+   "WC": 1.66,
+   "Spavaća soba": 12.06,
+   "Dječja soba": 12.05,
+   "Dječja soba 2": 9.92,
+   "Dnevni boravak s kuhinjom i blagovaonicom": 28.81,
+   "Lođa": 4.9
   },
   "renders": [
-   "assets/renders/b-s2_thumb.jpg",
-   "assets/renders/b-s2_living.jpg",
-   "assets/renders/b-s2_spavaca.jpg",
-   "assets/renders/b-s2_kupaonica.jpg"
+   "assets/renders/a-s1_thumb.jpg",
+   "assets/renders/a-s1_living.jpg",
+   "assets/renders/a-s1_spavaca.jpg",
+   "assets/renders/a-s1_djecja.jpg",
+   "assets/renders/a-s1_djecja_2.jpg",
+   "assets/renders/a-s1_kupaonica.jpg",
+   "assets/renders/a-s1_wc.jpg",
+   "assets/renders/a-s1_hodnik.jpg",
+   "assets/renders/a-s1_lodja.jpg"
   ],
   "plans": [
-   "assets/plans/b-s2-lijevi.jpg"
+   "assets/plans/a-s1.jpg"
   ],
   "spremno": true,
-  "px_per_m": 116.8968,
-  "izvor": "b-s2-lijevi",
-  "tour": "assets/video/tour-b-s2.mp4",
-  "ulaz": "B2",
-  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
-  "dilatacija": "DVORISNA",
-  "etaza": "prizemlje",
+  "px_per_m": 198.617,
+  "izvor": "a-s1",
+  "tour": "assets/video/tour-a-s1.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "1. kat",
   "ponavlja_se": false
  },
  {
+  "key": "a-s7",
+  "naziv": "Stan 7",
+  "m2": 30.58,
+  "zgrada": "A",
+  "tip": "1-sobni",
+  "parking": null,
+  "napomena": "Na tlocrtu označena kao STAN 7.",
+  "rooms": {
+   "Ulaz": 2.62,
+   "Kupaonica": 3.8,
+   "Spavaća soba": 8.31,
+   "Dnevni boravak s kuhinjom i blagovaonicom": 15.85
+  },
+  "renders": [
+   "assets/renders/a-s7_thumb.jpg",
+   "assets/renders/a-s7_living.jpg",
+   "assets/renders/a-s7_spavaca.jpg",
+   "assets/renders/a-s7_kupaonica.jpg",
+   "assets/renders/a-s7_ulaz.jpg"
+  ],
+  "plans": [
+   "assets/plans/a-s7.jpg"
+  ],
+  "spremno": true,
+  "px_per_m": 196.0326,
+  "izvor": "a-s7",
+  "tour": "assets/video/tour-a-s7.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "2. i 3. kat",
+  "ponavlja_se": true
+ },
+ {
+  "key": "a-s6",
+  "naziv": "Stan 6",
+  "m2": 50.78,
+  "zgrada": "A",
+  "tip": "1-sobni",
+  "parking": null,
+  "napomena": "Na tlocrtu označena kao STAN 6.",
+  "rooms": {
+   "Ulaz": 4.46,
+   "Kupaonica": 5.95,
+   "Spavaća soba": 10.05,
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.42,
+   "Lođa": 4.9
+  },
+  "renders": [
+   "assets/renders/a-s6_thumb.jpg",
+   "assets/renders/a-s6_living.jpg",
+   "assets/renders/a-s6_spavaca.jpg",
+   "assets/renders/a-s6_kupaonica.jpg",
+   "assets/renders/a-s6_ulaz.jpg",
+   "assets/renders/a-s6_lodja.jpg"
+  ],
+  "plans": [
+   "assets/plans/a-s6.jpg"
+  ],
+  "spremno": true,
+  "px_per_m": 194.9195,
+  "izvor": "a-s6",
+  "tour": "assets/video/tour-a-s6.mp4",
+  "ulaz": "A2",
+  "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
+  "dilatacija": "ULICNA",
+  "etaza": "2. i 3. kat",
+  "ponavlja_se": true
+ },
+ {
   "key": "b-s1",
-  "naziv": "Stan B2",
+  "naziv": "Stan B1",
   "m2": 42.72,
   "zgrada": "B",
   "tip": "1-sobni, pristupačan",
@@ -424,40 +392,8 @@ const UNITS = [
   "ponavlja_se": false
  },
  {
-  "key": "b-s3",
-  "naziv": "Stan B3",
-  "m2": 42.56,
-  "zgrada": "B",
-  "tip": "1-sobni, pristupačan",
-  "parking": null,
-  "napomena": "Na tlocrtu označena kao STAN 3.",
-  "rooms": {
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.55,
-   "Spavaća soba": 9.51,
-   "Kupaonica": 7.5
-  },
-  "renders": [
-   "assets/renders/b-s3_thumb.jpg",
-   "assets/renders/b-s3_living.jpg",
-   "assets/renders/b-s3_spavaca.jpg",
-   "assets/renders/b-s3_kupaonica.jpg"
-  ],
-  "plans": [
-   "assets/plans/b-s3-lijevi.jpg"
-  ],
-  "spremno": true,
-  "px_per_m": 116.8968,
-  "izvor": "b-s3-lijevi",
-  "tour": "assets/video/tour-b-s3.mp4",
-  "ulaz": "B2",
-  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
-  "dilatacija": "DVORISNA",
-  "etaza": "kat",
-  "ponavlja_se": false
- },
- {
   "key": "b-s4",
-  "naziv": "Stan B4",
+  "naziv": "Stan B3",
   "m2": 42.72,
   "zgrada": "B",
   "tip": "1-sobni, pristupačan",
@@ -483,6 +419,70 @@ const UNITS = [
   "tour": "assets/video/tour-b-s4.mp4",
   "ulaz": "B1",
   "ulaz_opis": "Ulaz B1 — dvorišna zgrada, zapadni dio (P+1)",
+  "dilatacija": "DVORISNA",
+  "etaza": "kat",
+  "ponavlja_se": false
+ },
+ {
+  "key": "b-s2",
+  "naziv": "Stan B2",
+  "m2": 42.56,
+  "zgrada": "B",
+  "tip": "1-sobni, pristupačan",
+  "parking": null,
+  "napomena": "Na tlocrtu označena kao STAN 1.",
+  "rooms": {
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.55,
+   "Spavaća soba": 9.51,
+   "Kupaonica": 7.5
+  },
+  "renders": [
+   "assets/renders/b-s2_thumb.jpg",
+   "assets/renders/b-s2_living.jpg",
+   "assets/renders/b-s2_spavaca.jpg",
+   "assets/renders/b-s2_kupaonica.jpg"
+  ],
+  "plans": [
+   "assets/plans/b-s2-lijevi.jpg"
+  ],
+  "spremno": true,
+  "px_per_m": 116.8968,
+  "izvor": "b-s2-lijevi",
+  "tour": "assets/video/tour-b-s2.mp4",
+  "ulaz": "B2",
+  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
+  "dilatacija": "DVORISNA",
+  "etaza": "prizemlje",
+  "ponavlja_se": false
+ },
+ {
+  "key": "b-s3",
+  "naziv": "Stan B4",
+  "m2": 42.56,
+  "zgrada": "B",
+  "tip": "1-sobni, pristupačan",
+  "parking": null,
+  "napomena": "Na tlocrtu označena kao STAN 3.",
+  "rooms": {
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.55,
+   "Spavaća soba": 9.51,
+   "Kupaonica": 7.5
+  },
+  "renders": [
+   "assets/renders/b-s3_thumb.jpg",
+   "assets/renders/b-s3_living.jpg",
+   "assets/renders/b-s3_spavaca.jpg",
+   "assets/renders/b-s3_kupaonica.jpg"
+  ],
+  "plans": [
+   "assets/plans/b-s3-lijevi.jpg"
+  ],
+  "spremno": true,
+  "px_per_m": 116.8968,
+  "izvor": "b-s3-lijevi",
+  "tour": "assets/video/tour-b-s3.mp4",
+  "ulaz": "B2",
+  "ulaz_opis": "Ulaz B2 — dvorišna zgrada, istočni dio (P+1)",
   "dilatacija": "DVORISNA",
   "etaza": "kat",
   "ponavlja_se": false
