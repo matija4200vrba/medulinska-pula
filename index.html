@@ -115,7 +115,8 @@ if(HERO){const v=$('#hv');v.src=HERO;if(HERO_POSTER)v.poster=HERO_POSTER;}
 else if(HERO_POSTER){$('#hv').outerHTML='<img src="'+HERO_POSTER+'" alt="">';}
 
 function card(u){
-  const th=u.renders[0]?'<img src="'+u.renders[0]+'" alt="">':'<span class="no">render u izradi</span>';
+  const tsrc=u.thumb||u.renders[0];
+const th=tsrc?'<img src="'+tsrc+'" alt="">':'<span class="no">render u izradi</span>';
   return '<div class="card" data-k="'+u.key+'"><div class="th">'+th+'</div><div class="bd">'+
     '<h3>'+u.naziv+'</h3><div class="meta">'+u.tip+'</div>'+(u.ulaz?'<div class="u-ulaz">Ulaz '+u.ulaz+(u.etaza?' \u00b7 '+u.etaza:'')+'</div>':'')+
     '<div class="m2">'+u.m2.toFixed(2).replace('.',',')+' m&sup2;</div>'+

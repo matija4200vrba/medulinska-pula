@@ -19,7 +19,6 @@ const UNITS = [
    "Spavaća soba": 10.79
   },
   "renders": [
-   "assets/renders/a-duplex_thumb.jpg",
    "assets/renders/a-duplex_living.jpg",
    "assets/renders/a-duplex_spavaca_gal.jpg",
    "assets/renders/a-duplex_djecja_gal.jpg",
@@ -39,7 +38,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "prizemlje + galerija",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/a-duplex_thumb.jpg"
  },
  {
   "key": "a-s2",
@@ -57,7 +57,6 @@ const UNITS = [
    "Lođa": 10.06
   },
   "renders": [
-   "assets/renders/a-s2_thumb.jpg",
    "assets/renders/a-s2_living.jpg",
    "assets/renders/a-s2_spavaca.jpg",
    "assets/renders/a-s2_kupaonica.jpg",
@@ -75,7 +74,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "1. kat",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/a-s2_thumb.jpg"
  },
  {
   "key": "a-s3",
@@ -93,7 +93,6 @@ const UNITS = [
    "Lođa": 9.99
   },
   "renders": [
-   "assets/renders/a-s3_thumb.jpg",
    "assets/renders/a-s3_living.jpg",
    "assets/renders/a-s3_spavaca.jpg",
    "assets/renders/a-s3_kupaonica.jpg",
@@ -111,7 +110,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "1. kat",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/a-s3_thumb.jpg"
  },
  {
   "key": "a-s4",
@@ -129,7 +129,6 @@ const UNITS = [
    "Lođa": 10.06
   },
   "renders": [
-   "assets/renders/a-s4_thumb.jpg",
    "assets/renders/a-s4_living.jpg",
    "assets/renders/a-s4_spavaca.jpg",
    "assets/renders/a-s4_kupaonica.jpg",
@@ -148,7 +147,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "2. i 3. kat",
-  "ponavlja_se": true
+  "ponavlja_se": true,
+  "thumb": "assets/renders/a-s4_thumb.jpg"
  },
  {
   "key": "a-s5",
@@ -166,7 +166,6 @@ const UNITS = [
    "Lođa": 9.99
   },
   "renders": [
-   "assets/renders/a-s5_thumb.jpg",
    "assets/renders/a-s5_living.jpg",
    "assets/renders/a-s5_spavaca.jpg",
    "assets/renders/a-s5_kupaonica.jpg",
@@ -185,7 +184,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "2. i 3. kat",
-  "ponavlja_se": true
+  "ponavlja_se": true,
+  "thumb": "assets/renders/a-s5_thumb.jpg"
  },
  {
   "key": "a-poslovni",
@@ -225,7 +225,6 @@ const UNITS = [
    "Galerija ureda": 28.06
   },
   "renders": [
-   "assets/renders/a-poslovni_thumb.jpg",
    "assets/renders/a-poslovni_ured.jpg",
    "assets/renders/a-poslovni_galerija.jpg",
    "assets/renders/a-poslovni_wc1.jpg",
@@ -245,7 +244,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "prizemlje + galerija",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/a-poslovni_thumb.jpg"
  },
  {
   "key": "a-s1",
@@ -266,7 +266,6 @@ const UNITS = [
    "Lođa": 4.9
   },
   "renders": [
-   "assets/renders/a-s1_thumb.jpg",
    "assets/renders/a-s1_living.jpg",
    "assets/renders/a-s1_spavaca.jpg",
    "assets/renders/a-s1_djecja.jpg",
@@ -287,7 +286,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "1. kat",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/a-s1_thumb.jpg"
  },
  {
   "key": "a-s7",
@@ -304,7 +304,6 @@ const UNITS = [
    "Dnevni boravak s kuhinjom i blagovaonicom": 15.85
   },
   "renders": [
-   "assets/renders/a-s7_thumb.jpg",
    "assets/renders/a-s7_living.jpg",
    "assets/renders/a-s7_spavaca.jpg",
    "assets/renders/a-s7_kupaonica.jpg",
@@ -321,7 +320,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "2. i 3. kat",
-  "ponavlja_se": true
+  "ponavlja_se": true,
+  "thumb": "assets/renders/a-s7_thumb.jpg"
  },
  {
   "key": "a-s6",
@@ -339,7 +339,6 @@ const UNITS = [
    "Lođa": 4.9
   },
   "renders": [
-   "assets/renders/a-s6_thumb.jpg",
    "assets/renders/a-s6_living.jpg",
    "assets/renders/a-s6_spavaca.jpg",
    "assets/renders/a-s6_kupaonica.jpg",
@@ -357,7 +356,8 @@ const UNITS = [
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
   "etaza": "2. i 3. kat",
-  "ponavlja_se": true
+  "ponavlja_se": true,
+  "thumb": "assets/renders/a-s6_thumb.jpg"
  },
  {
   "key": "b-s2",
@@ -373,7 +373,6 @@ const UNITS = [
    "Kupaonica": 7.5
   },
   "renders": [
-   "assets/renders/b-s2_thumb.jpg",
    "assets/renders/b-s2_living.jpg",
    "assets/renders/b-s2_spavaca.jpg",
    "assets/renders/b-s2_kupaonica.jpg"
@@ -389,7 +388,8 @@ const UNITS = [
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
   "etaza": "prizemlje",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/b-s2_thumb.jpg"
  },
  {
   "key": "b-s1",
@@ -405,7 +405,6 @@ const UNITS = [
    "Kupaonica": 6.96
   },
   "renders": [
-   "assets/renders/b-s1_thumb.jpg",
    "assets/renders/b-s1_living.jpg",
    "assets/renders/b-s1_spavaca.jpg",
    "assets/renders/b-s1_kupaonica.jpg"
@@ -421,7 +420,8 @@ const UNITS = [
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
   "etaza": "prizemlje",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/b-s1_thumb.jpg"
  },
  {
   "key": "b-s3",
@@ -437,7 +437,6 @@ const UNITS = [
    "Kupaonica": 7.5
   },
   "renders": [
-   "assets/renders/b-s3_thumb.jpg",
    "assets/renders/b-s3_living.jpg",
    "assets/renders/b-s3_spavaca.jpg",
    "assets/renders/b-s3_kupaonica.jpg"
@@ -453,7 +452,8 @@ const UNITS = [
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
   "etaza": "kat",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/b-s3_thumb.jpg"
  },
  {
   "key": "b-s4",
@@ -469,7 +469,6 @@ const UNITS = [
    "Kupaonica": 6.96
   },
   "renders": [
-   "assets/renders/b-s4_thumb.jpg",
    "assets/renders/b-s4_living.jpg",
    "assets/renders/b-s4_spavaca.jpg",
    "assets/renders/b-s4_kupaonica.jpg"
@@ -485,6 +484,7 @@ const UNITS = [
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
   "etaza": "kat",
-  "ponavlja_se": false
+  "ponavlja_se": false,
+  "thumb": "assets/renders/b-s4_thumb.jpg"
  }
 ];
