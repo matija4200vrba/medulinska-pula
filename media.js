@@ -1,4 +1,4 @@
-const HERO = "assets/video/hero-orbit.mp4?v=202608131756";
+const HERO = "assets/video/hero-orbit.mp4?v=202608131805";
 const HERO_POSTER = "assets/renders/hero_poster.png";
 const UNITS = [
  {
@@ -10,10 +10,11 @@ const UNITS = [
   "parking": null,
   "napomena": "Na tlocrtu označena kao STAN 1 (druga lamela), duplex: prizemlje + galerija.",
   "rooms": {
-   "Ulaz": 6.44,
+   "Ulaz": 5.52,
    "Kupaonica": 3.97,
    "Dnevni boravak s kuhinjom i blagovaonicom": 32.95,
    "Spremište": 3.71,
+   "Podest": 0.92,
    "Dječja soba": 9.04,
    "Spavaća soba": 10.79
   },
@@ -32,7 +33,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.8551,
   "izvor": "a-duplex-prizemlje",
-  "tour": "assets/video/tour-a-duplex.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-duplex.mp4?v=202608131805",
   "ulaz": "A1",
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -68,7 +69,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 114.545,
   "izvor": "a-s2",
-  "tour": "assets/video/tour-a-s2.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s2.mp4?v=202608131805",
   "ulaz": "A1",
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -104,7 +105,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 198.3901,
   "izvor": "a-s3",
-  "tour": "assets/video/tour-a-s3.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s3.mp4?v=202608131805",
   "ulaz": "A1",
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -140,7 +141,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 114.545,
   "izvor": "a-s4",
-  "tour": "assets/video/tour-a-s4.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s4.mp4?v=202608131805",
   "ulaz": "A1",
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -176,7 +177,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 198.3901,
   "izvor": "a-s5",
-  "tour": "assets/video/tour-a-s5.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s5.mp4?v=202608131805",
   "ulaz": "A1",
   "ulaz_opis": "Ulaz A1 — ulična zgrada, zapadni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -215,9 +216,9 @@ const UNITS = [
   "napomena": null,
   "rooms": {
    "Ured": 47.53,
-   "Sanitarni cvor (3 WC-a)": 8.6,
+   "Sanitarni čvor (3 WC-a)": 8.6,
    "Spremište": 4.64,
-   "Galerija ureda": 28.06
+   "Galerija": 28.06
   },
   "renders": [
    "assets/renders/a-poslovni_ured.jpg",
@@ -232,7 +233,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.5328,
   "izvor": "a-poslovni",
-  "tour": "assets/video/tour-a-poslovni.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-poslovni.mp4?v=202608131805",
   "ulaz": "A2",
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -243,15 +244,15 @@ const UNITS = [
  {
   "key": "a-s1",
   "naziv": "Stan 1",
-  "m2": 84.24,
+  "m2": 78.89,
   "zgrada": "A",
   "tip": "3-sobni",
   "parking": null,
   "napomena": "Na tlocrtu označena kao STAN 1.",
   "rooms": {
-   "Hodnik": 9.44,
-   "Kupaonica": 5.4,
-   "WC": 1.66,
+   "Ulaz": 5.52,
+   "Kupaonica": 3.97,
+   "Wc": 1.66,
    "Spavaća soba": 12.06,
    "Dječja soba (veća)": 12.05,
    "Dječja soba (manja)": 9.92,
@@ -274,7 +275,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 198.617,
   "izvor": "a-s1",
-  "tour": "assets/video/tour-a-s1.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s1.mp4?v=202608131805",
   "ulaz": "A2",
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -308,7 +309,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 196.0326,
   "izvor": "a-s7",
-  "tour": "assets/video/tour-a-s7.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s7.mp4?v=202608131805",
   "ulaz": "A2",
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -344,7 +345,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 194.9195,
   "izvor": "a-s6",
-  "tour": "assets/video/tour-a-s6.mp4?v=202608131756",
+  "tour": "assets/video/tour-a-s6.mp4?v=202608131805",
   "ulaz": "A2",
   "ulaz_opis": "Ulaz A2 — ulična zgrada, istočni dio (P+3)",
   "dilatacija": "ULICNA",
@@ -355,15 +356,15 @@ const UNITS = [
  {
   "key": "b-s2",
   "naziv": "Stan B2",
-  "m2": 42.56,
+  "m2": 42.72,
   "zgrada": "B",
   "tip": "1-sobni, pristupačan",
   "parking": null,
   "napomena": "Na tlocrtu označena kao STAN 1.",
   "rooms": {
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.55,
-   "Spavaća soba": 9.51,
-   "Kupaonica": 7.5
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.61,
+   "Spavaća soba": 10.15,
+   "Kupaonica": 6.96
   },
   "renders": [
    "assets/renders/b-s2_living.jpg",
@@ -376,7 +377,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 116.8968,
   "izvor": "b-s2-lijevi",
-  "tour": "assets/video/tour-b-s2.mp4?v=202608131756",
+  "tour": "assets/video/tour-b-s2.mp4?v=202608131805",
   "ulaz": "B",
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
@@ -408,7 +409,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.1589,
   "izvor": "b-s1-desni",
-  "tour": "assets/video/tour-b-s1.mp4?v=202608131756",
+  "tour": "assets/video/tour-b-s1.mp4?v=202608131805",
   "ulaz": "B",
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
@@ -419,15 +420,15 @@ const UNITS = [
  {
   "key": "b-s3",
   "naziv": "Stan B4",
-  "m2": 42.56,
+  "m2": 42.72,
   "zgrada": "B",
   "tip": "1-sobni, pristupačan",
   "parking": null,
   "napomena": "Na tlocrtu označena kao STAN 3.",
   "rooms": {
-   "Dnevni boravak s kuhinjom i blagovaonicom": 25.55,
-   "Spavaća soba": 9.51,
-   "Kupaonica": 7.5
+   "Dnevni boravak s kuhinjom i blagovaonicom": 25.61,
+   "Spavaća soba": 10.15,
+   "Kupaonica": 6.96
   },
   "renders": [
    "assets/renders/b-s3_living.jpg",
@@ -440,7 +441,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 116.8968,
   "izvor": "b-s3-lijevi",
-  "tour": "assets/video/tour-b-s3.mp4?v=202608131756",
+  "tour": "assets/video/tour-b-s3.mp4?v=202608131805",
   "ulaz": "B",
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
@@ -472,7 +473,7 @@ const UNITS = [
   "spremno": true,
   "px_per_m": 117.1589,
   "izvor": "b-s4-desni",
-  "tour": "assets/video/tour-b-s4.mp4?v=202608131756",
+  "tour": "assets/video/tour-b-s4.mp4?v=202608131805",
   "ulaz": "B",
   "ulaz_opis": "Jedno centralno stubiste, ulaz u sredini dvorisne dilatacije",
   "dilatacija": "DVORISNA",
