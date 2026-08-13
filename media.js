@@ -136,8 +136,7 @@ const UNITS = [
    "assets/renders/a-s4_lodja.jpg"
   ],
   "plans": [
-   "assets/plans/a-s4.jpg",
-   "assets/plans/a-s2.jpg"
+   "assets/plans/a-s4.jpg"
   ],
   "spremno": true,
   "px_per_m": 114.545,
@@ -173,8 +172,7 @@ const UNITS = [
    "assets/renders/a-s5_lodja.jpg"
   ],
   "plans": [
-   "assets/plans/a-s5.jpg",
-   "assets/plans/a-s3.jpg"
+   "assets/plans/a-s5.jpg"
   ],
   "spremno": true,
   "px_per_m": 198.3901,
@@ -228,8 +226,6 @@ const UNITS = [
    "assets/renders/a-poslovni_ured.jpg",
    "assets/renders/a-poslovni_galerija.jpg",
    "assets/renders/a-poslovni_wc1.jpg",
-   "assets/renders/a-poslovni_wc2.jpg",
-   "assets/renders/a-poslovni_wc3.jpg",
    "assets/renders/a-poslovni_spremiste.jpg"
   ],
   "plans": [
